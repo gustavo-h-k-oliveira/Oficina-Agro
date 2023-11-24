@@ -4,8 +4,8 @@ import './Header.css'
 export default function Header() {
   return (
     <header>
-      <h2 className='logo'>Meu Site</h2>
-      {/* <img src='../../../assets/images/oficina-logo.png' /> */}
+      <h1 className='logo'>Oficina Agro</h1>
+      {/* <img src='../../../assets/images/oficina-logo.png' alt='Logo da Oficina Agro'/> */}
       <nav>
         <ul>
           <li>

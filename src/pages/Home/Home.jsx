@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css'
 import Header from '../../components/organisms/Header/Header';
 import HighlightSection from '../../components/templates/HighlightSection';
-// import FeatureSection from './components/FeatureSection';
+import FeatureSection from '../../components/templates/FeatureSection';
 // import ContactSection from './components/ContactSection';
 import Footer from '../../components/organisms/Footer/Footer';
 
@@ -12,7 +12,7 @@ const MainPage = () => {
       <Header />
       <div className='content'>
         <HighlightSection />
-        {/* <FeatureSection /> */}
+        <FeatureSection />
         {/* <ContactSection /> */}        
       </div>
       <Footer />
