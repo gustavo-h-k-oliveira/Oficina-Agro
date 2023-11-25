@@ -1,0 +1,25 @@
+.button-section {
+    margin: 10vh 0 0 2vw;
+    padding: 10px 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px #000;
+    background: var(--material-theme-sys-dark-secondary-fixed-dim, #FFB956);
+    cursor: pointer;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+    
+    &:hover {
+      background-color: #FFC97C;
+      box-shadow: 0 4px 6px -4px #000 inset;
+    }
+  }
+      
+  span {
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+  }

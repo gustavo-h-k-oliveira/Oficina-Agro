@@ -9,22 +9,22 @@ export default function FeatureSection() {
             <p>É por isso que apresentamos o Aplicativo de Garagem de Fazenda, sua ferramenta essencial para revolucionar a maneira como você gerencia sua frota de tratores e equipamentos agrícolas. Veja por que nossa solução é um investimento inteligente para a eficiência de seus processos agrícolas:</p>
             <ul className='list-features'>
                 <li>
-                    🛠 Manutenção Preditiva de Primeira Classe;
+                    <span role='img' aria-labelledby='emoji-description'>🛠</span> Manutenção Preditiva de Primeira Classe;
                 </li>
                 <li>
-                    📅 Agendamento Simplificado;
+                    <span role='img' aria-labelledby='emoji-description'>📅</span> Agendamento Simplificado;
                 </li>
                 <li>
-                    ⏲ Registro de Histórico Detalhado;
+                    <span role='img' aria-labelledby='emoji-description'>⏲</span> Registro de Histórico Detalhado;
                 </li>
                 <li>
-                    🗺 Gerenciamento Centralizado;
+                    <span role='img' aria-labelledby='emoji-description'>🗺</span> Gerenciamento Centralizado;
                 </li>
                 <li>
-                    📈 Aumento da Produtividade;
+                    <span role='img' aria-labelledby='emoji-description'>📈</span> Aumento da Produtividade;
                 </li>
                 <li>
-                    💵 Economia de Dinheiro e Tempo.
+                    <span role='img' aria-labelledby='emoji-description'>💵</span> Economia de Dinheiro e Tempo.
                 </li>
             </ul>
             <p>O Aplicativo Oficina Agro é mais do que uma ferramenta; é um parceiro confiável que apoia seu sucesso na agricultura. Com nossa solução, você está preparado para enfrentar os desafios do setor agrícola moderno, otimizando processos, aumentando a eficiência e colhendo os frutos do seu trabalho com confiança.</p>

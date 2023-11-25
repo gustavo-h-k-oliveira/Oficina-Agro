@@ -3,7 +3,6 @@
 }
 
 header {
-    /* width: auto; */
     height: 10vh;
     /* padding: 5px; */
     min-height: auto;
@@ -11,13 +10,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);              */
 }
 
 nav {
-    position: relative;
-    right: 15vw;
+    margin-right: 15vw;
 }
 
 .logo {
@@ -42,10 +39,10 @@ ul {
 }
 
 ul > li {
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
-a {
+li > a {
     font-size: 20px;
     text-decoration: none;
     color: black;

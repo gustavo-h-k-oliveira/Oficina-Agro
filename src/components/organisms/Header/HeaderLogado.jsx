@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css'
+import './HeaderLogado.css'
 
 export default function Header() {
   return (
@@ -8,23 +8,24 @@ export default function Header() {
       {/* <img src='../../../assets/images/oficina-logo.png' alt='Logo da Oficina Agro'/> */}
       <nav>
         <ul>
-          <li>
-            <a href="/">Home</a>
+          <li className='header-item1'>
+            <a href="/">Painel de controle</a>
           </li>
           <li className='line'>|</li>
           <li>
-            <a href="/about">Sobre</a>
+            <a href="/about">Histórico de manutenções</a>
           </li>
           <li className='line'>|</li>
           <li>
-            <a href="/contact">Contato</a>
+            <a href="/contact">Relatório</a>
           </li>
-          <li className='line'>|</li>
-          <li>
+          {/* <li className='line'>|</li> */}
+          {/* <li>
             <a href="/profile"><span class="material-symbols-outlined">account_circle</span></a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>
   );
 };
+

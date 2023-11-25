@@ -1,7 +1,7 @@
 import React from 'react';
-import '../atoms/buttons/ButtonSignUp'
+import '../../atoms/buttons/ButtonSignUp'
 import './HighlightSection.css';
-import ButtonSignUp from '../atoms/buttons/ButtonSignUp';
+import ButtonSignUp from '../../atoms/buttons/ButtonSignUp';
 
 export default function HighlightSection() {
     return (

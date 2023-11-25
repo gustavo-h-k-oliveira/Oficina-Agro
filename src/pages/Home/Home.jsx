@@ -1,8 +1,8 @@
 import React from 'react';
 import './Home.css'
 import Header from '../../components/organisms/Header/Header';
-import HighlightSection from '../../components/templates/HighlightSection';
-import FeatureSection from '../../components/templates/FeatureSection';
+import HighlightSection from '../../components/templates/Home/HighlightSection';
+import FeatureSection from '../../components/templates/Home/FeatureSection';
 // import ContactSection from './components/ContactSection';
 import Footer from '../../components/organisms/Footer/Footer';
 

@@ -1,0 +1,126 @@
+.form {
+    padding: 10vh 7vw 10vh 7vw;
+    margin: 0 15vw 10vh 15vw;
+    background-color: #FFC97C;
+    border-radius: 0px 12px 12px 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    display: grid;
+    align-items: center;
+}
+
+.form-group1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.form-group2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.form-group3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.input-subgroup1 {
+    width: 40vw;
+    max-width: 50vw;
+}
+
+.input1 {
+    margin-bottom: 60px;
+}
+
+.input2 {
+    margin-bottom: 60px;
+}
+
+.input4 {
+    margin-bottom: 60px;
+}
+
+.input5 {
+    width: 25vw;
+}
+
+.input6 {
+    width: 25vw;
+}
+
+.input7 {
+    margin-bottom: 60px;
+}
+
+.input8 {
+    width: 25vw;
+}
+
+.input9 {
+    width: 25vw;
+}
+
+.input10 {
+    margin-bottom: 60px;
+}
+
+p {
+    color: darkslategrey;
+    padding-top: 10px;
+    text-align: center;
+    letter-spacing: -0.69px;
+    line-height: 100%;
+}
+
+.custom-file-label {
+    color: darkgray;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.form-control {
+    color: darkgray;
+}
+
+.button-next {
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.btn-primary {
+    display: flex;
+    width: 286px;
+    padding: 10px 95px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 0px;
+    border-radius: 24px;
+    background-color: #006A69;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+
+    &:hover {
+        background-color: #006160;
+        box-shadow: 0 4px 6px -4px #000 inset;
+    }
+}
+
+.text-button-next {
+    color: aliceblue;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
