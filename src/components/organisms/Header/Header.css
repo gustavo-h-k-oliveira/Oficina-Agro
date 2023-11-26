@@ -5,7 +5,7 @@
 header {
     /* width: auto; */
     height: 10vh;
-    /* padding: 5px; */
+    padding: 5px;
     min-height: auto;
     background-color: #ADF679;
     display: flex;

@@ -26,7 +26,7 @@ footer {
     right: 15vw;
 }
 
-p {
+.site-info {
     position: relative;
     left: 15vw;
     text-align: center;

@@ -1,0 +1,7 @@
+.content-dashboard {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #454545;
+}

@@ -4,7 +4,8 @@ import './index.css';
 // import Home from './pages/Home/Home';
 // import Formulario from './pages/Formulário/Formulario';
 // import Login from './pages/Login/Login';
-import Cadastro from './pages/Cadastro/Cadastro';
+// import Cadastro from './pages/Cadastro/Cadastro';
+import Dashboard from './pages/Dashboard/Dashboard';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
@@ -13,8 +14,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Cadastro />
-      </BrowserRouter>
+      <Dashboard />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
