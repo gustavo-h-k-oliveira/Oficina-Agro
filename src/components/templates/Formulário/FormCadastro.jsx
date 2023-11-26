@@ -12,6 +12,10 @@ export default function Formulário() {
         setShowForm1(!showForm1);
     };
 
+    const sendData = () => {
+        alert('Dados armazenados com sucesso!')
+    }
+
     const [nome, setNome] = useState('');
     const [tipo, setTipo] = useState('');
     const [modelo, setModelo] = useState('');
@@ -194,7 +198,7 @@ export default function Formulário() {
                             <input type='text' class="form-control" id='FormControlInput11' placeholder="Complemento" value={complemento} onChange={handleComplementoChange} aria-label="complemento-setor" aria-describedby="basic-addon1" />
                         </div>
                         <div className='button-send'>
-                            <button type='submit' className='btn-primary' form='form-product' onClick={switchForm}>
+                            <button type='submit' className='btn-primary' form='form-product' onClick={sendData}>
                                 <span className='text-button-form'>Finalizar registro</span>
                             </button>
                         </div>
