@@ -18,7 +18,8 @@ nav {
 }
 
 .logo {
-    font-size: 40px;
+    height: 70px;
+    width: auto;
     position: relative;
     left: 15vw;
 }

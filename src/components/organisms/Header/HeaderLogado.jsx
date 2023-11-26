@@ -1,11 +1,11 @@
 import React from 'react';
-import './HeaderLogado.css'
+import './HeaderLogado.css';
+import image from '/workspace/Oficina-Agro/src/assets/images/oficina-logo.png';
 
 export default function Header() {
   return (
     <header>
-      <h1 className='logo'>Oficina Agro</h1>
-      {/* <img src='../../../assets/images/oficina-logo.png' alt='Logo da Oficina Agro'/> */}
+      <img src={image} className='logo' alt='Logo do site' />
       <nav>
         <ul>
           <li className='header-item1'>
