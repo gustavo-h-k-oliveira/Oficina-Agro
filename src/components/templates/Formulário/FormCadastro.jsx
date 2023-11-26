@@ -86,6 +86,7 @@ export default function Formulário() {
 
     return (
         <>
+            <h1 className='title'>Formulário de inventário</h1>
             <div className='buttons-form'>
                 <ButtonFormProduto />
                 <ButtonFormSection />
@@ -152,7 +153,7 @@ export default function Formulário() {
                         </div>
                         <div className='button-next'>
                             <button type='submit' className='btn-primary' form='form-product' onClick={switchForm}>
-                                <span className='text-button-next'>Próximo</span>
+                                <span className='text-button-form'>Próximo</span>
                             </button>
                         </div>
                     </div>
@@ -191,6 +192,11 @@ export default function Formulário() {
                                 Descrição/complemento
                             </label>
                             <input type='text' class="form-control" id='FormControlInput11' placeholder="Complemento" value={complemento} onChange={handleComplementoChange} aria-label="complemento-setor" aria-describedby="basic-addon1" />
+                        </div>
+                        <div className='button-send'>
+                            <button type='submit' className='btn-primary' form='form-product' onClick={switchForm}>
+                                <span className='text-button-form'>Finalizar registro</span>
+                            </button>
                         </div>
                     </div>
                 </form>
