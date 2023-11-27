@@ -1,11 +1,11 @@
-.content {
+.login-content {
     background-image: url('https://th.bing.com/th/id/R.db2f9114a88e5a0162f86eb06d7b2e1e?rik=6OyDHDUhZL1fxg&pid=ImgRaw&r=0');
     width: 100vw;
     height: 100vh;
     flex-shrink: 0;
 }
 
-.form {
+.login-form {
     height: 100vh;
     display: flex;
     align-items: center;
