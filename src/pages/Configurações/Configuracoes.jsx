@@ -36,27 +36,39 @@ const Configuracoes = () => {
                         </h2>
                         <br />
                         <div className='setting'>
-                            <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-                                <label class="form-check-label" for="flexSwitchCheckDefault">Notificações (novas tarefas, conclusão de tarefas, mensagens, etc).</label>
+                            <div class="form-check-form-switch">
+                                <label class="switch">
+                                    <input type="checkbox" id='flexSwitchCheckDefault1'/>
+                                    <span class="slider round"></span>
+                                </label>
+                                <label class="form-check-label" for="flexSwitchCheckDefault1">Notificações (novas tarefas, conclusão de tarefas, mensagens, etc).</label>
                             </div>
                         </div>
                         <div className='setting'>
-                            <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-                                <label class="form-check-label" for="flexSwitchCheckDefault">Alertas de tarefas pendentes</label>
+                            <div class="form-check-form-switch">
+                                <label class="switch">
+                                    <input type="checkbox" id='flexSwitchCheckDefault2'/>
+                                    <span class="slider round"></span>
+                                </label>
+                                <label class="form-check-label" for="flexSwitchCheckDefault2">Alertas de tarefas pendentes</label>
                             </div>
                         </div>
                         <div className='setting'>
-                            <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" checked disabled />
-                                <label class="form-check-label" for="flexSwitchCheckDefault">Modo Escuro</label>
+                            <div class="form-check-form-switch">
+                                <label class="switch">
+                                    <input type="checkbox" id='flexSwitchCheckDefault3' checked disabled />
+                                    <span class="slider round"></span>
+                                </label>
+                                <label class="form-check-label" for="flexSwitchCheckDefault3">Modo Escuro</label>
                             </div>
                         </div>
                         <div className='setting'>
-                            <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-                                <label class="form-check-label" for="flexSwitchCheckDefault">Exibir status de presença</label>
+                            <div class="form-check-form-switch">
+                                <label class="switch">
+                                    <input type="checkbox" id='flexSwitchCheckDefault4' />
+                                    <span class="slider round"></span>
+                                </label>
+                                <label class="form-check-label" for="flexSwitchCheckDefault4">Exibir status de presença</label>
                             </div>
                         </div>
                         <div className='pos-button'>
