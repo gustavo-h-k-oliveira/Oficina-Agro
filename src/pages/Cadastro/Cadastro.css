@@ -1,0 +1,13 @@
+.content-signup {
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    gap: 5vw;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-color: #4DDAD9;
+}
