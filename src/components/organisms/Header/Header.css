@@ -2,29 +2,29 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-header {
+.header-home {
     /* width: auto; */
     height: 10vh;
     padding: 5px;
     min-height: auto;
     background-color: #ADF679;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 10px;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);              */
 }
 
-nav {
-    position: relative;
-    right: 15vw;
+.nav-home {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     height: 70px;
     width: auto;
-    position: relative;
-    left: 15vw;
 }
 
 .line {

@@ -48,7 +48,7 @@ export default function SignUp() {
                 Você já tem uma conta?
             </p>
             <div className='link-signin'>
-                <Link to='/signin'>
+                <Link to='/login'>
                     Login
                 </Link>
             </div>

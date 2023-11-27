@@ -34,7 +34,7 @@ export default function FormLogin() {
             <ButtonSignIn />
             <p>Você não tem uma conta?</p>
             <div className='link-signup'>
-                <Link to="/signup">
+                <Link to="/cadastro">
                     Cadastre-se
                 </Link>
             </div>
