@@ -122,8 +122,12 @@ span {
     height: 30px;
     text-align: center;
     align-items: center;
-    color: #92D960;
+    color: #006A69;
     font-size: medium;
     font-weight: 500px;
     border-radius: 5px;
+}
+
+.btn-profile {
+    display: flex;
 }
