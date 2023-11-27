@@ -19,7 +19,7 @@ export default function FormLogin() {
 
     return (
         <div className="login-container">
-            <div className='logo'>
+            <div className='login-logo'>
                 <img src={image} alt='Logo do site' />
             </div>
             <h2 className='welcome'>Bem-vindo de volta</h2>
